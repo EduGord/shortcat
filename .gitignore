@@ -1,0 +1,95 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Temporary files created by the Go tools
+*.log
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Go build cache
+go-build/
+cache/
+*.syso
+
+# Logs
+logs/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Dependency directories (remove the comment below if you're using Go modules)
+vendor/
+
+# Environment variables
+.env
+.env.*
+
+# Config files
+*.yaml
+*.yml
+
+# Database
+*.db
+*.sqlite3
+*.sql
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Intellij IDEA
+*.iml
+*.ipr
+*.iws
+
+# JetBrains Rider
+*.sln
+*.csproj
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Eclipse
+.metadata/
+bin/
+tmp/
+*.bak
+
+# Other
+*.pid
+*.seed
+*.key
+*.crt
+
+# Coverage files
+coverage/
+cover.out
+*.cov
+
+# Go tools
+golangci-lint.cache/
+golangci-lint.out
+_go.mod
+_go.sum
+
+# Go module cache
+.gopath/
